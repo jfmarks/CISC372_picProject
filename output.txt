@@ -1,0 +1,15 @@
+Script started on Mon Oct 30 15:02:53 2023
+[jfmarks@r1n13 CISC372_picProject]$ srun image_omp pic1.jpg blur
+Starting Process OMP ...
+Process Took 1 seconds
+Saving image now...
+Saved image --Done
+[jfmarks@r1n13 CISC372_picProject]$ srun image pic1.jpg blur
+Starting Process P-Thread ...
+Process Took 0 seconds
+Saving image now...
+Saved image --Done
+[jfmarks@r1n13 CISC372_picProject]$ exit
+exit
+
+Script done on Mon Oct 30 15:03:27 2023
